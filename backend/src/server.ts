@@ -1,7 +1,7 @@
 import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
-import quizRoutes from './routes/quizRoutes.js';
+import quizRoutes from './routes/quizRoutes';
 
 dotenv.config();
 

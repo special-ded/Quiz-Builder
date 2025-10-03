@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import prisma from '../db/client.js';
+import prisma from '../db/client';
 
 export const createQuiz = async (req: Request, res: Response) => {
     try {

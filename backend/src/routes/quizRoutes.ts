@@ -4,7 +4,7 @@ import {
     getAllQuizzes,
     getQuizById,
     deleteQuiz
-} from '../controllers/quizController.js';
+} from '../controllers/quizController';
 
 const router = express.Router();
 
